@@ -149,3 +149,34 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.main-button {
+    border-radius: 30px;
+    border: 1px solid #AFA43B; 
+    padding: 10px 20px;
+    background: transparent;
+    color: #AFA43B;
+    position: absolute; 
+    top: 450px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 3;
+
+}
+
+
+.main-button:hover {
+    border-color:#FFEA32;
+    color:#FFEA32;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+.main-button:active {
+    border-color: #E62DD7;
+    color:#E62DD7;
+    cursor: pointer;
+}
+
+
